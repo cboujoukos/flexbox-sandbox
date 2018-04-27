@@ -1,0 +1,27 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Flexbox sandbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "npm run dev",
+    "lint": "jshint src/**.js"
+  },
+  "keywords": [
+    "flexbox"
+  ],
+  "author": "Oleg Chursin",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "jshint": "^2.9.5",
+    "lite-server": "^2.3.0",
+    "mocha": "^5.1.1",
+    "uglify-js": "^3.3.22"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.3.0"
+  }
+}

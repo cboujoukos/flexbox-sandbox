@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox Sandbox</title>
+  <link rel="stylesheet" href="https://use.typekit.net/cad0itc.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-item">
+      <a href="http://olegchursin.com">olegchursin.com</a>
+    </div>
+    <div class="nav-item nav-mid">Flexbox Sandbox</div>
+    <div class="nav-item">
+      <a href="http://olegchursin.com">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <h3>justify-content: flex-start</h3>
+    <p>Items are packed toward the start line.</p>
+    <div class="flex-container" id="flex-start">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>justify-content: flex-end</h3>
+    <p>Items are packed toward the end line.</p>
+    <div class="flex-container" id="flex-end">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>justify-content: center</h3>
+    <p>Items are packed around the center</p>
+    <div class="flex-container" id="center">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>justify-content: space-evenly</h3>
+    <p>Items are distributed evenly. Spacing between any two items (and the space to the edges) is equal.</p>
+    <div class="flex-container" id="flex-evenly">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>justify-content: space-around</h3>
+    <p>Items are distributed evenly. Items have a half-size space on either end.</p>
+    <div class="flex-container" id="flex-around">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>justify-content: space-between</h3>
+    <p>Items are distributed evenly. The first item is flush with the start,the last is flush with the end.</p>
+    <div class="flex-container" id="flex-between">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>align-items: start</h3>
+    <p>How flex items are laid out along the cross axis on the current line. Cross-start margin edge of the items is placed on the cross-start line.</p>
+    <div class="flex-container align" id="align-start">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>align-items: end</h3>
+    <p>How flex items are laid out along the cross axis on the current line. Cross-end margin edge of the items is placed on the cross-end line.</p>
+    <div class="flex-container align" id="align-end">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>align-items: center</h3>
+    <p>How flex items are laid out along the cross axis on the current line. Items are centered in the cross-axis.</p>
+    <div class="flex-container align" id="align-center">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+    <h3>align-items: stretch</h3>
+    <p>How flex items are laid out along the cross axis on the current line. Items are centered in the cross-axis.</p>
+    <div class="flex-container align" id="align-stretch">
+      <div class="flex-item">F</div>
+      <div class="flex-item">L</div>
+      <div class="flex-item">E</div>
+      <div class="flex-item">X</div>
+    </div>
+
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
